@@ -27,6 +27,7 @@ export class LoginComponent implements OnInit {
     
     Swal.fire({
       allowOutsideClick: false,
+      type: 'info',
       text: 'Espere por favor...',
     })
     Swal.showLoading();
